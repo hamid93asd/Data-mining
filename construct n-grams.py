@@ -21,6 +21,6 @@ def n_grams_sklearn () :
 
             return vocab
 
-      print(vectorizer("char", (2,2)))
-      print(vectorizer("char", (3,3)))
-      print(vectorizer("word", (2,2)))
+      print(vectorizer("char", (2,2))) # for vectorize 2 chars
+      print(vectorizer("char", (3,3))) # for vectorize 3 chars
+      print(vectorizer("word", (2,2))) # for vectorize 2 words
