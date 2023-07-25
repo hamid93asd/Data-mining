@@ -20,3 +20,7 @@ def n_grams_sklearn () :
             shape = matrix.shape # show row and column in matrix
 
             return vocab
+
+      print(vectorizer("char", (2,2)))
+      print(vectorizer("char", (3,3)))
+      print(vectorizer("word", (2,2)))
